@@ -13,10 +13,10 @@ export default class Row extends Component {
 
     const { shadow, edgeInsets } = data;
     const boxShadow = shadow
-      ? `${shadow.offsetX}px ${shadow.offsetY}px ${shadow.radius}px ${chroma(shadow.color).alpha(0.5).css()}`
+      ? `${shadow.offsetX}pt ${shadow.offsetY}pt ${shadow.radius}pt ${chroma(shadow.color).alpha(0.5).css()}`
       : 'none';
     const margin = edgeInsets
-      ? `${edgeInsets.top}px ${edgeInsets.right}px ${edgeInsets.bottom}px ${edgeInsets.left}px`
+      ? `${edgeInsets.top}pt ${edgeInsets.right}pt ${edgeInsets.bottom}pt ${edgeInsets.left}pt`
       : 0;
 
     return (
@@ -31,8 +31,8 @@ export default class Row extends Component {
           style={{
             backgroundColor: data.bgColor,
             color: data.textColor,
-            fontSize: `${data.textSize}px`,
-            borderRadius: `${data.cornerRadius}px`,
+            fontSize: `${data.textSize}pt`,
+            borderRadius: `${data.cornerRadius}pt`,
             boxShadow,
             margin
           }}

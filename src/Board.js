@@ -6,7 +6,7 @@ export default class Board extends Component {
     const { data } = this.props;
     const { edgeInsets } = data;
     const margin = edgeInsets
-      ? `${edgeInsets.top}px ${edgeInsets.right}px ${edgeInsets.bottom}px ${edgeInsets.left}px`
+      ? `${edgeInsets.top}pt ${edgeInsets.right}pt ${edgeInsets.bottom}pt ${edgeInsets.left}pt`
       : 0;
 
     return (
