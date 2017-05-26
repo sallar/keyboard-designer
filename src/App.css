@@ -1,0 +1,36 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.canvas {
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.board {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+.key {
+  width: 100%;
+  display: flex;
+}
+
+.key .inner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spacer {
+  flex: 1;
+}

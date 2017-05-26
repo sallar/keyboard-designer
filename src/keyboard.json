@@ -1,0 +1,271 @@
+{
+  "name": "example",
+  "author": "First Last",
+  "boards": [
+    {
+      "id": "alphabets",
+      "bgColor": "#000000",
+      "edgeInsets": {
+        "top": 0,
+        "left": 2.75,
+        "bottom": 0,
+        "right": 1.5
+      },
+      "rows": [
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "Q"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "W"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "E"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "R"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "T"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "Y"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "U"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "I"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "O"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "P"
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "A"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "S"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "D"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "F"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "G"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "H"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "J"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "K"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "L"
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "textFont": "FontAwesome",
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "caps",
+              "ratio": 12.5,
+              "title": "arrow-up"
+            },
+            {
+              "isSpacer": true
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "Z"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "X"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "C"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "V"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "B"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "N"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "insert",
+              "ratio": 10,
+              "title": "M"
+            },
+            {
+              "isSpacer": true
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "delete",
+              "ratio": 12.5,
+              "textFont": "FontAwesome",
+              "title": "arrow-circle-o-left"
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "switch numbers",
+              "ratio": 12.5,
+              "title": "123"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "next",
+              "ratio": 10,
+              "textFont": "FontAwesome",
+              "title": "keyboard-o"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "space",
+              "ratio": 50,
+              "title": "space"
+            },
+            {
+              "textSize": 22,
+              "textColor": "#ffffff",
+              "action": "return",
+              "ratio": 25,
+              "title": "return"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
