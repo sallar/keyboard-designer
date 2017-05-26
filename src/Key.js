@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import cx from 'classnames';
 import Icon from 'react-fontawesome';
+import chroma from 'chroma-js';
 
 export default class Row extends Component {
   render() {
@@ -11,8 +12,8 @@ export default class Row extends Component {
     }
 
     const { shadow, edgeInsets } = data;
-    const boxShadow = boxShadow
-      ? `${shadow.offsetX}px ${shadow.offsetY}px ${shadow.radius}px ${shadow.color}`
+    const boxShadow = shadow
+      ? `${shadow.offsetX}px ${shadow.offsetY}px ${shadow.radius}px ${chroma(shadow.color).alpha(0.5).css()}`
       : 'none';
     const margin = edgeInsets
       ? `${edgeInsets.top}px ${edgeInsets.right}px ${edgeInsets.bottom}px ${edgeInsets.left}px`

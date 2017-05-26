@@ -4,7 +4,7 @@
   "boards": [
     {
       "id": "alphabets",
-      "bgColor": "#000000",
+      "bgColor": "clear",
       "edgeInsets": {
         "top": 0,
         "left": 2.75,
@@ -16,72 +16,252 @@
           "bgColor": "clear",
           "keys": [
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "Q"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "W"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "E"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "R"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "T"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "Y"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "U"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "I"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "O"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "P"
             }
@@ -91,65 +271,227 @@
           "bgColor": "clear",
           "keys": [
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "A"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "S"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "D"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "F"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "G"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "H"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "J"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "K"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "L"
             }
@@ -160,9 +502,27 @@
           "keys": [
             {
               "textFont": "FontAwesome",
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "caps",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 12.5,
               "title": "arrow-up"
             },
@@ -170,51 +530,177 @@
               "isSpacer": true
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "Z"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "X"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "C"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "V"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "B"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "N"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 10,
               "title": "M"
             },
@@ -222,9 +708,27 @@
               "isSpacer": true
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "delete",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 12.5,
               "textFont": "FontAwesome",
               "title": "arrow-circle-o-left"
@@ -235,31 +739,103 @@
           "bgColor": "clear",
           "keys": [
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "switch numbers",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 12.5,
               "title": "123"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "next",
-              "ratio": 10,
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
+              "ratio": 12.5,
               "textFont": "FontAwesome",
               "title": "keyboard-o"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "space",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 50,
               "title": "space"
             },
             {
-              "textSize": 22,
-              "textColor": "#ffffff",
+              "bgColor": "#ecf0f1",
+              "textFontName": "SFUI",
+              "textColor": "#2c3e50",
               "action": "return",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 0,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "shadow": {
+                "color": "#000000",
+                "alpha": 0.5,
+                "offsetX": 3,
+                "offsetY": 5,
+                "radius": 3,
+                "cornerRadius": 0
+              },
               "ratio": 25,
               "title": "return"
             }
