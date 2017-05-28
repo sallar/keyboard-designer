@@ -1,8 +1,8 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 @font-face {
-  font-family: 'SFUIDisplay-Regular';
-  src: url('./SFUIDisplay-Regular.woff') format('woff');
+  font-family: 'SFCompactDisplay-Regular';
+  src: url('./SFCompactDisplay-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
