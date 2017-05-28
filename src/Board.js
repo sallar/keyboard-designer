@@ -13,7 +13,6 @@ export default class Board extends Component {
       <div
         className="board"
         style={{
-          zIndex: -(index),
           backgroundColor: data.bgColor,
           margin
         }}

@@ -12,22 +12,21 @@ body {
   text-rendering: optimizelegibility;
 }
 
+.scene {
+  width: 621px;
+  margin: 2rem auto;
+}
+
 .canvas {
   width: 621px;
   height: 338px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #CED2D8;
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 .board {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
