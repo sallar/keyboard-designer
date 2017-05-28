@@ -4,10 +4,10 @@
   "boards": [
     {
       "id": "alphabets",
-      "bgColor": "clear",
+      "bgColor": "#1F2733",
       "edgeInsets": {
-        "top": 0,
-        "left": 2.75,
+        "top": 4,
+        "left": 2.2,
         "bottom": 0,
         "right": 1.5
       },
@@ -16,10 +16,10 @@
           "bgColor": "clear",
           "keys": [
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -29,23 +29,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "Q"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -55,23 +47,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "W"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -81,23 +65,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "E"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -107,23 +83,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "R"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -133,23 +101,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "T"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -159,23 +119,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "Y"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -185,23 +137,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "U"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -211,23 +155,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "I"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -237,23 +173,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "O"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -263,14 +191,6 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "P"
@@ -281,10 +201,10 @@
           "bgColor": "clear",
           "keys": [
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -294,23 +214,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "A"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -320,23 +232,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "S"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -346,23 +250,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "D"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -372,23 +268,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "F"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -398,23 +286,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "G"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -424,23 +304,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "H"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -450,23 +322,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "J"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -476,23 +340,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "K"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -502,14 +358,6 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "L"
@@ -520,12 +368,11 @@
           "bgColor": "clear",
           "keys": [
             {
-              "textFont": "FontAwesome",
-              "bgColor": "#ffffff",
+              "textFontName": "FontAwesome",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
-              "action": "caps",
+              "textColor": "#89F7FF",
+              "action": "shift",
               "hasPopUp": false,
               "isSpacer": false,
               "cornerRadius": 5,
@@ -534,14 +381,6 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 12.5,
               "title": "arrow-up"
@@ -550,10 +389,10 @@
               "isSpacer": true
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -563,23 +402,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "Z"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -589,23 +420,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "X"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -615,23 +438,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "C"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -641,23 +456,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "V"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -667,23 +474,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "B"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -693,23 +492,15 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "N"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "insert",
               "hasPopUp": false,
               "isSpacer": false,
@@ -719,14 +510,6 @@
                 "left": 3,
                 "bottom": 5,
                 "right": 3
-              },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
               },
               "ratio": 10,
               "title": "M"
@@ -735,10 +518,10 @@
               "isSpacer": true
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "FontAwesome",
+              "textColor": "#89F7FF",
               "action": "delete",
               "hasPopUp": false,
               "isSpacer": false,
@@ -749,16 +532,7 @@
                 "bottom": 5,
                 "right": 3
               },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
-              },
               "ratio": 12.5,
-              "textFont": "FontAwesome",
               "title": "arrow-circle-o-left"
             }
           ]
@@ -767,10 +541,10 @@
           "bgColor": "clear",
           "keys": [
             {
-              "bgColor": "#ffffff",
-              "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "bgColor": "#222B38",
+              "textSize": 18,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "switch numbers",
               "hasPopUp": false,
               "isSpacer": false,
@@ -781,22 +555,14 @@
                 "bottom": 5,
                 "right": 3
               },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
-              },
               "ratio": 12.5,
               "title": "123"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "FontAwesome",
+              "textColor": "#89F7FF",
               "action": "next",
               "hasPopUp": false,
               "isSpacer": false,
@@ -807,23 +573,14 @@
                 "bottom": 5,
                 "right": 3
               },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
-              },
               "ratio": 12.5,
-              "textFont": "FontAwesome",
               "title": "keyboard-o"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "space",
               "hasPopUp": false,
               "isSpacer": false,
@@ -834,22 +591,14 @@
                 "bottom": 5,
                 "right": 3
               },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
-              },
               "ratio": 50,
               "title": "space"
             },
             {
-              "bgColor": "#ffffff",
+              "bgColor": "#222B38",
               "textSize": 22,
-              "textFontName": "SFUI",
-              "textColor": "#2c3e50",
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
               "action": "return",
               "hasPopUp": false,
               "isSpacer": false,
@@ -860,13 +609,601 @@
                 "bottom": 5,
                 "right": 3
               },
-              "shadow": {
-                "color": "#000000",
-                "alpha": 0.5,
-                "offsetX": 1,
-                "offsetY": 1,
-                "radius": 6,
-                "cornerRadius": 0
+              "ratio": 25,
+              "title": "return"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "bgColor": "#1F2733",
+      "edgeInsets": {
+        "top": 4,
+        "left": 2.2,
+        "bottom": 0,
+        "right": 1.5
+      },
+      "rows": [
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "1"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "2"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "3"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "4"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "5"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "6"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "7"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "8"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "9"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "0"
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "-"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "/"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": ":"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": ";"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "("
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": ")"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "$"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "&"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "@"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 10,
+              "title": "\""
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "textFontName": "SFUIDisplay-Regular",
+              "bgColor": "#222B38",
+              "textSize": 18,
+              "textColor": "#89F7FF",
+              "action": "switch things",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 12.5,
+              "title": "#+="
+            },
+            {
+              "isSpacer": true
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 13,
+              "title": "."
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 13,
+              "title": ","
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 13,
+              "title": "?"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 13,
+              "title": "!"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "insert",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 13,
+              "title": "'"
+            },
+            {
+              "isSpacer": true
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "FontAwesome",
+              "textColor": "#89F7FF",
+              "action": "delete",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 12.5,
+              "title": "arrow-circle-o-left"
+            }
+          ]
+        },
+        {
+          "bgColor": "clear",
+          "keys": [
+            {
+              "bgColor": "#222B38",
+              "textSize": 18,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "switch alphabets",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 12.5,
+              "title": "123"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "FontAwesome",
+              "textColor": "#89F7FF",
+              "action": "next",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 12.5,
+              "title": "keyboard-o"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "space",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
+              },
+              "ratio": 50,
+              "title": "space"
+            },
+            {
+              "bgColor": "#222B38",
+              "textSize": 22,
+              "textFontName": "SFUIDisplay-Regular",
+              "textColor": "#89F7FF",
+              "action": "return",
+              "hasPopUp": false,
+              "isSpacer": false,
+              "cornerRadius": 5,
+              "edgeInsets": {
+                "top": 5,
+                "left": 3,
+                "bottom": 5,
+                "right": 3
               },
               "ratio": 25,
               "title": "return"

@@ -32,13 +32,14 @@ export default class Row extends Component {
             backgroundColor: data.bgColor,
             color: data.textColor,
             fontSize: `${data.textSize}pt`,
+            fontFamily: data.textFontName,
             borderRadius: `${data.cornerRadius}pt`,
             boxShadow,
             margin
           }}
           >
           {
-            (data.textFont === 'FontAwesome')
+            (data.textFontName === 'FontAwesome')
               ? <Icon name={data.title} />
               : data.title
           }

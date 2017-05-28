@@ -14,8 +14,8 @@ export default class Designer extends Component {
 
   render() {
     return (
-      <div className="canvas">
-        {this.state.boards.map((board, i) => <Board key={i} data={board} />)}
+      <div className="canvas" style={{ backgroundColor: this.state.boards[0].bgColor }}>
+        {this.state.boards.map((board, i) => <Board key={i} index={i} data={board} />)}
       </div>
     );
   }

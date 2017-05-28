@@ -1,5 +1,17 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
+@font-face {
+  font-family: 'SFUIDisplay-Regular';
+  src: url('./SFUIDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
 .canvas {
   width: 621px;
   height: 338px;
@@ -7,12 +19,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
   background-color: #CED2D8;
 }
 
 .board {
-  flex: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
 }
