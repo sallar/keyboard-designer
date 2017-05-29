@@ -1,0 +1,1 @@
+export const LOAD_KEYBOARD = 'LOAD_KEYBOARD';

@@ -12,6 +12,10 @@ body {
   text-rendering: optimizelegibility;
 }
 
+.App {
+  min-height: 100vh;
+}
+
 .scene {
   width: 621px;
   margin: 2rem auto;

@@ -1,18 +1,22 @@
 import { combineReducers } from 'redux';
-
-const SELECT_KEYBOARD = 'SELECT_KEYBOARD';
+import { LOAD_KEYBOARD } from '../types';
 
 function result(state = null, action) {
   switch (action.type) {
-    case SELECT_KEYBOARD: 
-      return action.payload;
+    case LOAD_KEYBOARD: 
+      return action.payload.result;
     default:
       return state;
   }
 }
 
 function entities(state = {}, action) {
-  return state;
+  switch (action.type) {
+    case LOAD_KEYBOARD:
+      return action.payload.entities;
+    default:
+      return state;
+  }
 }
 
 export default combineReducers({

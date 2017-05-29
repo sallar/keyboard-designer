@@ -3,7 +3,7 @@ import Row from './Row';
 
 export default class Board extends Component {
   render() {
-    const { data, index } = this.props;
+    const { data } = this.props;
     const { edgeInsets } = data;
     const margin = edgeInsets
       ? `${edgeInsets.top}pt ${edgeInsets.right}pt ${edgeInsets.bottom}pt ${edgeInsets.left}pt`

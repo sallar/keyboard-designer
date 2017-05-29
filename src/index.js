@@ -7,13 +7,14 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
+// Default
 import { input } from './utils/normalize';
 import def from './keyboard.json';
 
 const store = createStore(keyboardApp, input(def));
 console.log(store.getState());
-store.subscribe(data => {
-  console.log(data);
+store.subscribe(() => {
+  console.log(store.getState());
 });
 
 ReactDOM.render(

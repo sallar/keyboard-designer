@@ -1,9 +1,7 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { getActiveKeyboard } from './store/selectors';
 import Board from './Board';
 
-const Designer = ({ keyboard }) => (
+export default ({ keyboard }) => (
   <div className="scene">
     <h1>{keyboard.name}</h1>
     <h4>By {keyboard.author}</h4>
@@ -14,9 +12,3 @@ const Designer = ({ keyboard }) => (
     ))}
   </div>
 );
-
-export default connect(
-  state => ({
-    keyboard: getActiveKeyboard(state)
-  })
-)(Designer);
