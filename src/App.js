@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Designer from './Designer';
 import { loadKeyboard } from './store/actions/keyboard';
 import { getActiveKeyboard } from './store/selectors';
-import Dropzone from 'react-dropzone';
+// import Dropzone from 'react-dropzone';
 import './App.css';
 
 class App extends Component {
@@ -24,13 +24,15 @@ class App extends Component {
     }
     reader.readAsText(file);
   }
+  // <Dropzone className="App" onDrop={this.handleDrop} disableClick>
+  // </Dropzone>
 
   render() {
     const { keyboard } = this.props;
     return (
-      <Dropzone className="App" onDrop={this.handleDrop} disableClick>
+      <div className="App">
         {keyboard && <Designer keyboard={keyboard} />}
-      </Dropzone>
+      </div>
     );
   }
 }

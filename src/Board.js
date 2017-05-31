@@ -17,7 +17,7 @@ export default class Board extends Component {
           margin
         }}
         >
-        {data.rows.map((row, i) => <Row key={i} data={row} />)}
+        {data.rows.map((row, i) => <Row key={i} index={i} data={row} />)}
       </div>
     );
   }
