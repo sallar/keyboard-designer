@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
+import { ItemTypes } from './utils/types';
 import Key from './Key';
 
 class Row extends Component {
   render() {
-    const { data } = this.props;
-    const { text, isDragging, connectDragSource, connectDropTarget } = this.props;
+    const { data, isDragging, connectDragSource, connectDropTarget } = this.props;
 
     return connectDragSource(connectDropTarget(
-      <div className="row" style={{ backgroundColor: data.bgColor }}>
-        {data.keys.map((key, i) => <Key key={i} data={key} />)}
+      <div className="row" style={{ backgroundColor: data.bgColor, opacity: isDragging ? 0 : 1 }}>
+        {data.keys.map((key, i) => <Key key={i} index={i} data={key} />)}
       </div>
     ));
   }
@@ -62,11 +62,11 @@ const rowTarget = {
   },
 };
 
-const DragSourceRow = DragSource('key', rowSource, (connect, monitor) => ({
+const DragSourceRow = DragSource(ItemTypes.ROW, rowSource, (connect, monitor) => ({
   connectDragSource: connect.dragSource(),
   isDragging: monitor.isDragging(),
 }))(Row);
 
-export default DropTarget('key', rowTarget, connect => ({
+export default DropTarget(ItemTypes.ROW, rowTarget, connect => ({
   connectDropTarget: connect.dropTarget(),
 }))(DragSourceRow);
