@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
+import flow from 'lodash/flow';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
-import { ItemTypes } from '../utils/types';
 import Key from './key';
 
 class Row extends Component {
   render() {
-    const { data, isDragging, connectDragSource, connectDropTarget } = this.props;
+    const { keys, bgColor, isDragging, connectDragSource, connectDropTarget } = this.props;
 
     return connectDragSource(connectDropTarget(
       <div
         className="row"
-        id={data.uuid}
-        style={{ backgroundColor: data.bgColor, opacity: isDragging ? 1 : 1 }}
+        style={{ backgroundColor: bgColor, opacity: isDragging ? 1 : 1 }}
         >
-        {data.keys.map((key, i) => <Key key={i} index={i} data={key} />)}
+        {keys.map((key, i) => <Key key={i} index={i} data={key} />)}
       </div>
     ));
   }
@@ -23,7 +22,7 @@ class Row extends Component {
 const rowSource = {
   beginDrag(props) {
     return {
-      id: props.data.uuid,
+      id: props.uuid,
       index: props.index,
     };
   },
@@ -56,21 +55,16 @@ const rowTarget = {
 
     // Time to actually perform the action
     props.onMoveRow(dragIndex, hoverIndex);
-    console.log('moving', dragIndex, hoverIndex);
-
-    // Note: we're mutating the monitor item here!
-    // Generally it's better to avoid mutations,
-    // but it's good here for the sake of performance
-    // to avoid expensive index searches.
     monitor.getItem().index = hoverIndex;
   },
 };
 
-const DragSourceRow = DragSource(ItemTypes.ROW, rowSource, (connect, monitor) => ({
-  connectDragSource: connect.dragSource(),
-  isDragging: monitor.isDragging(),
-}))(Row);
-
-export default DropTarget(ItemTypes.ROW, rowTarget, connect => ({
-  connectDropTarget: connect.dropTarget(),
-}))(DragSourceRow);
+export default flow(
+  DropTarget(props => props.boardId, rowTarget, connect => ({
+    connectDropTarget: connect.dropTarget(),
+  })),
+  DragSource(props => props.boardId, rowSource, (connect, monitor) => ({
+    connectDragSource: connect.dragSource(),
+    isDragging: monitor.isDragging(),
+  }))
+)(Row);

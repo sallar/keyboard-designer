@@ -32,9 +32,10 @@ export default class Board extends Component {
         >
         {data.rows.map((row, i) => (
           <Row
+            boardId={data.uuid}
             key={i}
             index={i}
-            data={row}
+            {...row}
             onMoveRow={this.handleMoveRow}
             />
         ))}
