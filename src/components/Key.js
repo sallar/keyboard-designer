@@ -4,7 +4,7 @@ import { DragSource, DropTarget } from 'react-dnd';
 import cx from 'classnames';
 import Icon from 'react-fontawesome';
 import chroma from 'chroma-js';
-import { ItemTypes } from './utils/types';
+import { ItemTypes } from '../utils/types';
 
 class Key extends Component {
   render() {
@@ -60,6 +60,9 @@ const keySource = {
       index: props.index,
     };
   },
+  canDrag() {
+    return false;
+  }
 };
 
 const keyTarget = {

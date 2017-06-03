@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
-import { ItemTypes } from './utils/types';
+import { ItemTypes } from '../utils/types';
 import Key from './Key';
 
 class Row extends Component {
