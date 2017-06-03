@@ -9,7 +9,11 @@ class Row extends Component {
     const { data, isDragging, connectDragSource, connectDropTarget } = this.props;
 
     return connectDragSource(connectDropTarget(
-      <div className="row" style={{ backgroundColor: data.bgColor, opacity: isDragging ? 0 : 1 }}>
+      <div
+        className="row"
+        id={data.uuid}
+        style={{ backgroundColor: data.bgColor, opacity: isDragging ? 1 : 1 }}
+        >
         {data.keys.map((key, i) => <Key key={i} index={i} data={key} />)}
       </div>
     ));
@@ -19,7 +23,7 @@ class Row extends Component {
 const rowSource = {
   beginDrag(props) {
     return {
-      id: props.id,
+      id: props.data.uuid,
       index: props.index,
     };
   },
@@ -51,17 +55,14 @@ const rowTarget = {
     }
 
     // Time to actually perform the action
-    props.onMoveCard({
-      from: dragIndex,
-      to: hoverIndex
-    });
+    props.onMoveRow(dragIndex, hoverIndex);
     console.log('moving', dragIndex, hoverIndex);
 
     // Note: we're mutating the monitor item here!
     // Generally it's better to avoid mutations,
     // but it's good here for the sake of performance
     // to avoid expensive index searches.
-    // monitor.getItem().index = hoverIndex;
+    monitor.getItem().index = hoverIndex;
   },
 };
 

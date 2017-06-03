@@ -2,8 +2,21 @@ import React, { Component } from 'react';
 import Row from './row';
 
 export default class Board extends Component {
+  handleMoveRow = (from, to) => {
+    const { onMoveRow, data } = this.props;
+    onMoveRow({
+      id: data.uuid,
+      from,
+      to
+    });
+  }
+
+  onReceiveNewProps() {
+    console.log('bam');
+  }
+
   render() {
-    const { data, ...rest } = this.props;
+    const { data } = this.props;
     const { edgeInsets } = data;
     const margin = edgeInsets
       ? `${edgeInsets.top}pt ${edgeInsets.right}pt ${edgeInsets.bottom}pt ${edgeInsets.left}pt`
@@ -17,7 +30,14 @@ export default class Board extends Component {
           margin
         }}
         >
-        {data.rows.map((row, i) => <Row key={i} index={i} data={row} {...rest} />)}
+        {data.rows.map((row, i) => (
+          <Row
+            key={i}
+            index={i}
+            data={row}
+            onMoveRow={this.handleMoveRow}
+            />
+        ))}
       </div>
     );
   }
