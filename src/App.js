@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Designer from './components/designer';
-import { loadKeyboard } from './store/actions/keyboard';
+import { loadKeyboard, moveKey, moveRow } from './store/actions/keyboard';
 import { getActiveKeyboard } from './store/selectors';
 // import Dropzone from 'react-dropzone';
 import './App.css';
@@ -28,10 +28,11 @@ class App extends Component {
   // </Dropzone>
 
   render() {
-    const { keyboard } = this.props;
+    const { keyboard, moveRow, moveKey } = this.props;
+    // moveRow({a: 1});
     return (
       <div className="App">
-        {keyboard && <Designer keyboard={keyboard} />}
+        {keyboard && <Designer keyboard={keyboard} onMoveRow={moveRow} onMoveKey={moveKey} />}
       </div>
     );
   }
@@ -42,6 +43,8 @@ export default connect(
     keyboard: getActiveKeyboard(state)
   }),
   {
-    loadKeyboard
+    loadKeyboard,
+    moveRow,
+    moveKey
   }
 )(App);

@@ -51,7 +51,10 @@ const rowTarget = {
     }
 
     // Time to actually perform the action
-    // props.moveCard(dragIndex, hoverIndex);
+    props.onMoveCard({
+      from: dragIndex,
+      to: hoverIndex
+    });
     console.log('moving', dragIndex, hoverIndex);
 
     // Note: we're mutating the monitor item here!

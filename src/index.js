@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import keyboardApp from './store/reducers';
+import { configureStore } from './store';
+import { loadKeyboard } from './store/actions/keyboard';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-
-// Default
-import { input } from './utils/normalize';
 import def from './keyboard.json';
 
-const store = createStore(keyboardApp, input(def));
-console.log(store.getState());
-store.subscribe(() => {
-  console.log(store.getState());
-});
+const store = configureStore();
+store.dispatch(loadKeyboard(def));
 
 ReactDOM.render(
   <Provider store={store}>
@@ -23,4 +17,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
+// registerServiceWorker();

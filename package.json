@@ -14,6 +14,8 @@
     "react-fontawesome": "^1.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
+    "redux-actions": "^2.0.3",
+    "redux-logger": "^3.0.6",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
