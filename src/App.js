@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Designer from './components/Designer';
+import Designer from './components/designer';
 import { loadKeyboard } from './store/actions/keyboard';
 import { getActiveKeyboard } from './store/selectors';
 // import Dropzone from 'react-dropzone';

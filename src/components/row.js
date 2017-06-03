@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
 import { ItemTypes } from '../utils/types';
-import Key from './Key';
+import Key from './key';
 
 class Row extends Component {
   render() {

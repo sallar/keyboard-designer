@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Row from './Row';
+import Row from './row';
 
 export default class Board extends Component {
   render() {
