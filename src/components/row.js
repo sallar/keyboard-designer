@@ -5,15 +5,26 @@ import { DragSource, DropTarget } from 'react-dnd';
 import Key from './key';
 
 class Row extends Component {
+  handleMoveKey = (from, to) => {
+    const { onMoveKey, uuid } = this.props;
+    onMoveKey({
+      id: uuid,
+      from,
+      to
+    });
+  }
+
   render() {
-    const { keys, bgColor, isDragging, connectDragSource, connectDropTarget } = this.props;
+    const { uuid, keys, bgColor, isDragging, connectDragSource, connectDropTarget } = this.props;
 
     return connectDragSource(connectDropTarget(
       <div
         className="row"
         style={{ backgroundColor: bgColor, opacity: isDragging ? 1 : 1 }}
         >
-        {keys.map((key, i) => <Key key={i} index={i} data={key} />)}
+        {keys.map((key, i) => (
+          <Key key={i} index={i} {...key} rowId={uuid} onMoveKey={this.handleMoveKey} />
+        ))}
       </div>
     ));
   }

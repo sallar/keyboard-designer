@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import flow from 'lodash/flow';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
 import cx from 'classnames';
@@ -8,13 +9,25 @@ import { ItemTypes } from '../utils/types';
 
 class Key extends Component {
   render() {
-    const { data, isDragging, connectDragSource, connectDropTarget } = this.props;
+    const { isDragging, connectDragSource, connectDropTarget } = this.props;
+    const {
+      isSpacer,
+      shadow,
+      edgeInsets,
+      action,
+      ratio,
+      bgColor,
+      textColor,
+      textSize,
+      textFontName,
+      cornerRadius,
+      title
+    } = this.props;
 
-    if (data.isSpacer) {
+    if (isSpacer) {
       return <div className="spacer"></div>;
     }
 
-    const { shadow, edgeInsets } = data;
     const boxShadow = shadow
       ? `${shadow.offsetX}pt ${shadow.offsetY}pt ${shadow.radius}pt ${chroma(shadow.color).alpha(0.5).css()}`
       : 'none';
@@ -24,28 +37,28 @@ class Key extends Component {
 
     return connectDragSource(connectDropTarget(
       <div
-        className={cx(ItemTypes.KEY, data.action)}
+        className={cx(ItemTypes.KEY, action)}
         style={{
-          maxWidth: `${data.ratio}%`,
+          maxWidth: `${ratio}%`,
         }}
         >
         <div
           className='inner'
           style={{
-            backgroundColor: data.bgColor,
-            color: data.textColor,
-            fontSize: `${data.textSize}pt`,
-            fontFamily: data.textFontName,
-            borderRadius: `${data.cornerRadius}pt`,
-            opacity: isDragging ? 0 : 1,
+            backgroundColor: bgColor,
+            color: textColor,
+            fontSize: `${textSize}pt`,
+            fontFamily: textFontName,
+            borderRadius: `${cornerRadius}pt`,
+            opacity: isDragging ? 1 : 1,
             boxShadow,
             margin
           }}
           >
           {
-            (data.textFontName === 'FontAwesome')
-              ? <Icon name={data.title} />
-              : data.title
+            (textFontName === 'FontAwesome')
+              ? <Icon name={title} />
+              : title
           }
         </div>
       </div>
@@ -60,9 +73,9 @@ const keySource = {
       index: props.index,
     };
   },
-  canDrag() {
-    return false;
-  }
+  // canDrag() {
+  //   return false;
+  // }
 };
 
 const keyTarget = {
@@ -91,22 +104,18 @@ const keyTarget = {
     }
 
     // Time to actually perform the action
-    // props.moveCard(dragIndex, hoverIndex);
-    console.log('moving', dragIndex, hoverIndex);
-
-    // Note: we're mutating the monitor item here!
-    // Generally it's better to avoid mutations,
-    // but it's good here for the sake of performance
-    // to avoid expensive index searches.
-    // monitor.getItem().index = hoverIndex;
+    console.log('moving key', dragIndex, hoverIndex);
+    props.onMoveKey(dragIndex, hoverIndex);
+    monitor.getItem().index = hoverIndex;
   },
 };
 
-const DragSourceKey = DragSource(ItemTypes.KEY, keySource, (connect, monitor) => ({
-  connectDragSource: connect.dragSource(),
-  isDragging: monitor.isDragging(),
-}))(Key);
-
-export default DropTarget(ItemTypes.KEY, keyTarget, connect => ({
-  connectDropTarget: connect.dropTarget(),
-}))(DragSourceKey);
+export default flow(
+  DropTarget(props => props.rowId, keyTarget, connect => ({
+    connectDropTarget: connect.dropTarget(),
+  })),
+  DragSource(props => props.rowId, keySource, (connect, monitor) => ({
+    connectDragSource: connect.dragSource(),
+    isDragging: monitor.isDragging(),
+  }))
+)(Key);

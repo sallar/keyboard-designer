@@ -11,12 +11,8 @@ export default class Board extends Component {
     });
   }
 
-  onReceiveNewProps() {
-    console.log('bam');
-  }
-
   render() {
-    const { data } = this.props;
+    const { data, onMoveKey } = this.props;
     const { edgeInsets } = data;
     const margin = edgeInsets
       ? `${edgeInsets.top}pt ${edgeInsets.right}pt ${edgeInsets.bottom}pt ${edgeInsets.left}pt`
@@ -37,6 +33,7 @@ export default class Board extends Component {
             index={i}
             {...row}
             onMoveRow={this.handleMoveRow}
+            onMoveKey={onMoveKey}
             />
         ))}
       </div>
