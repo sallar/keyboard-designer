@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Designer from './Designer';
-import { loadKeyboard } from './store/actions/keyboard';
+import Designer from './components/designer';
+import { loadKeyboard, moveKey, moveRow } from './store/actions/keyboard';
 import { getActiveKeyboard } from './store/selectors';
-import Dropzone from 'react-dropzone';
+// import Dropzone from 'react-dropzone';
 import './App.css';
 
 class App extends Component {
@@ -24,13 +24,16 @@ class App extends Component {
     }
     reader.readAsText(file);
   }
+  // <Dropzone className="App" onDrop={this.handleDrop} disableClick>
+  // </Dropzone>
 
   render() {
-    const { keyboard } = this.props;
+    const { keyboard, moveRow, moveKey } = this.props;
+    // moveRow({a: 1});
     return (
-      <Dropzone className="App" onDrop={this.handleDrop} disableClick>
-        {keyboard && <Designer keyboard={keyboard} />}
-      </Dropzone>
+      <div className="App">
+        {keyboard && <Designer keyboard={keyboard} onMoveRow={moveRow} onMoveKey={moveKey} />}
+      </div>
     );
   }
 }
@@ -40,6 +43,8 @@ export default connect(
     keyboard: getActiveKeyboard(state)
   }),
   {
-    loadKeyboard
+    loadKeyboard,
+    moveRow,
+    moveKey
   }
 )(App);
